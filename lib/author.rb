@@ -14,7 +14,10 @@ class Author
   end
   
   def add_post (argument)
+    @posts << argument
+    argument.author = self 
     
+    @@post_count += 1
   end
   
 end
