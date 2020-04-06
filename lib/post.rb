@@ -21,5 +21,6 @@ class Post
       self.author 
     else
       nil 
+    end
   end
 end
