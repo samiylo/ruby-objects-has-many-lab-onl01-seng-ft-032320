@@ -7,7 +7,10 @@ class Artist
   end
   
   def songs
-    @@all.collect {|artist|
+    @@all.collect do |artist|
+      
+      artist == self
+    end
     
   end
 end
