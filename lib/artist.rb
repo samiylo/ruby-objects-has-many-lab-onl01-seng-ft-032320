@@ -7,6 +7,6 @@ class Artist
   end
   
   def songs (name)
-    name.Song.all
+    self.all
   end
 end
