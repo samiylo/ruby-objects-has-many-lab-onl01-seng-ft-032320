@@ -6,4 +6,8 @@ class Author
     @name = name 
   end
   
+  def posts 
+    @@all 
+  end
+  
 end
